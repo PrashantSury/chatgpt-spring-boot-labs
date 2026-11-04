@@ -36,3 +36,8 @@ Represent a menu item as a persistent entity with identity, name, price and avai
 ## Stretch task
 
 Add a production-style diagnostic: a metric, structured log, query-count assertion or security test that would help detect a regression.
+
+
+## Practice stub
+
+Implement the chapter exercise in [`MenuItemEntity.java`](src/main/java/com/tapri/practice/chapter16/MenuItemEntity.java). The starter method intentionally throws `UnsupportedOperationException` until you complete the TODO. Add tests under `src/test/java` and verify normal and edge-case behavior.
