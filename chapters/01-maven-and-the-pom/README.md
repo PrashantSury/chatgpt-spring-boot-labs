@@ -78,3 +78,33 @@ mvn help:effective-pom
 ## Interview check
 
 **Who picks a Spring Boot starter's version?** The parent's dependency management. Upgrading the Boot parent updates the managed versions as a compatible set; explicitly pinned dependencies are not automatically changed.
+
+
+## Practice workspace
+
+This chapter's coding stub is the Maven project descriptor itself:
+
+- [pom.xml](pom.xml) — intentionally incomplete; complete the six TODOs in order.
+
+This is a Maven configuration lab, not a runnable web application. You do not need Java source files in this chapter. The goal is to make Maven understand the project and its dependency model.
+
+### Verify your work
+
+Run these commands from this chapter folder after completing the TODOs:
+
+```bash
+mvn validate
+mvn help:effective-pom
+mvn dependency:tree
+```
+
+Use the output to verify that the Spring Boot parent supplies managed dependency versions and that the test starter is present with test scope. To verify the profile property, run:
+
+```bash
+mvn help:active-profiles -Pprod
+mvn help:evaluate -Dexpression=spring-boot.run.profiles -q -DforceStdout -Pprod
+```
+
+### What is intentionally not provided
+
+There is no completed POM or solution branch. You are expected to edit the stub, run Maven, inspect errors and use the acceptance checklist above to validate your own work.
