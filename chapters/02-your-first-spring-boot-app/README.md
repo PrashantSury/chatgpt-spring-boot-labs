@@ -86,3 +86,24 @@ curl 'localhost:8081/menu/under?price=30'
 ## Interview check
 
 **What does `@SpringBootApplication` switch on?** Configuration, auto-configuration and component scanning.
+
+
+## Practice workspace
+
+The starter code for this chapter is in the same folder:
+
+- [TapriApplication.java](src/main/java/com/tapri/TapriApplication.java) — application bootstrap stub
+- [MenuController.java](src/main/java/com/tapri/menu/MenuController.java) — four endpoint TODOs
+- [MenuItem.java](src/main/java/com/tapri/menu/MenuItem.java) — menu response model
+- [application.properties](src/main/resources/application.properties) — local server settings
+- [pom.xml](pom.xml) — Maven dependencies
+
+### Run the practice app
+
+From this chapter folder:
+
+```bash
+mvn spring-boot:run
+```
+
+Then try the endpoints listed in the tasks. The controller methods intentionally return `null` or TODO responses until you implement them. Do not copy a completed solution; use the acceptance checklist to verify your own work.
