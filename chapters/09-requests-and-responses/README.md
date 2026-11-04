@@ -37,3 +37,8 @@ Build menu read and order creation endpoints. Return `201 Created` and a `Locati
 ## Stretch task
 
 Add a test for a realistic edge case, then refactor one part to improve readability without changing behavior.
+
+
+## Practice stub
+
+Implement the chapter exercise in [`OrderEndpoint.java`](src/main/java/com/tapri/practice/chapter09/OrderEndpoint.java). The starter method intentionally throws `UnsupportedOperationException` until you complete the TODO. Add tests under `src/test/java` and verify normal and edge-case behavior.
