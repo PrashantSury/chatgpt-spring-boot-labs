@@ -36,3 +36,8 @@ After an order is placed, notify an in-process reporting component. A nightly jo
 ## Stretch task
 
 Review the feature as if it were going live: identify one failure mode, add a test or diagnostic for it, and document a mitigation.
+
+
+## Practice stub
+
+Implement the chapter exercise in [`ReservationExpiry.java`](src/main/java/com/tapri/practice/chapter37/ReservationExpiry.java). The starter method intentionally throws `UnsupportedOperationException` until you complete the TODO. Add tests under `src/test/java` and verify normal and edge-case behavior.
