@@ -36,3 +36,8 @@ Protect the Tapri Cloud admin endpoints while keeping menu browsing public. Conf
 ## Stretch task
 
 Add a production-style diagnostic: a metric, structured log, query-count assertion or security test that would help detect a regression.
+
+
+## Practice stub
+
+Implement the chapter exercise in [`SecurityPolicy.java`](src/main/java/com/tapri/practice/chapter24/SecurityPolicy.java). The starter method intentionally throws `UnsupportedOperationException` until you complete the TODO. Add tests under `src/test/java` and verify normal and edge-case behavior.
