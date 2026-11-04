@@ -36,3 +36,8 @@ An expired or missing token should produce a 401 response; a valid customer toke
 ## Stretch task
 
 Add a production-style diagnostic: a metric, structured log, query-count assertion or security test that would help detect a regression.
+
+
+## Practice stub
+
+Implement the chapter exercise in [`SecurityErrorMapper.java`](src/main/java/com/tapri/practice/chapter31/SecurityErrorMapper.java). The starter method intentionally throws `UnsupportedOperationException` until you complete the TODO. Add tests under `src/test/java` and verify normal and edge-case behavior.
