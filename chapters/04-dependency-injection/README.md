@@ -37,3 +37,8 @@ Create `PaymentGateway` with `CashGateway` and `CardGateway`. Inject the selecte
 ## Stretch task
 
 Add a test for a realistic edge case, then refactor one part to improve readability without changing behavior.
+
+
+## Practice stub
+
+Implement the chapter exercise in [`CheckoutService.java`](src/main/java/com/tapri/practice/chapter04/CheckoutService.java). The starter method intentionally throws `UnsupportedOperationException` until you complete the TODO. Add tests under `src/test/java` and verify normal and edge-case behavior.
