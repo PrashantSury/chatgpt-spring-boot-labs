@@ -37,3 +37,8 @@ A `MenuCache` loads a small reference dataset at startup and closes a background
 ## Stretch task
 
 Add a test for a realistic edge case, then refactor one part to improve readability without changing behavior.
+
+
+## Practice stub
+
+Implement the chapter exercise in [`MenuCache.java`](src/main/java/com/tapri/practice/chapter07/MenuCache.java). The starter method intentionally throws `UnsupportedOperationException` until you complete the TODO. Add tests under `src/test/java` and verify normal and edge-case behavior.
