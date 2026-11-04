@@ -37,3 +37,8 @@ An order must contain at least one item, each quantity must be positive, and cus
 ## Stretch task
 
 Add a test for a realistic edge case, then refactor one part to improve readability without changing behavior.
+
+
+## Practice stub
+
+Implement the chapter exercise in [`OrderValidator.java`](src/main/java/com/tapri/practice/chapter12/OrderValidator.java). The starter method intentionally throws `UnsupportedOperationException` until you complete the TODO. Add tests under `src/test/java` and verify normal and edge-case behavior.
