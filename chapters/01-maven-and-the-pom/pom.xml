@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Practice stub: complete tasks 1–6 in README.md. -->
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <!-- Task 2: add the Spring Boot parent here, before project coordinates. -->
+
+  <!-- Task 1: change only the project's own coordinates. -->
+  <groupId>com.example</groupId>
+  <artifactId>demo</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>Tapri Cloud</name>
+  <description>The ordering platform behind every Tapri counter</description>
+
+  <properties>
+    <!-- Task 3: change java.version to 25. -->
+    <java.version>17</java.version>
+  </properties>
+
+  <dependencies>
+    <!-- Task 4: add spring-boot-starter-webmvc without version or scope. -->
+    <!-- Task 5: add spring-boot-starter-webmvc-test with test scope. -->
+  </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-maven-plugin</artifactId>
+      </plugin>
+    </plugins>
+  </build>
+
+  <!-- Task 6: add a prod profile here; put spring-boot.run.profiles=prod
+       inside that profile's own properties element. -->
+</project>
