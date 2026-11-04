@@ -36,3 +36,8 @@ Only a manager assigned to a café can change that café's menu. Enforce the rul
 ## Stretch task
 
 Add a production-style diagnostic: a metric, structured log, query-count assertion or security test that would help detect a regression.
+
+
+## Practice stub
+
+Implement the chapter exercise in [`OrderOwnershipPolicy.java`](src/main/java/com/tapri/practice/chapter29/OrderOwnershipPolicy.java). The starter method intentionally throws `UnsupportedOperationException` until you complete the TODO. Add tests under `src/test/java` and verify normal and edge-case behavior.
