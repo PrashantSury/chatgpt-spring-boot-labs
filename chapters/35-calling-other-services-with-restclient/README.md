@@ -36,3 +36,8 @@ Tapri Cloud requests a delivery quote from a partner service. A slow or unavaila
 ## Stretch task
 
 Review the feature as if it were going live: identify one failure mode, add a test or diagnostic for it, and document a mitigation.
+
+
+## Practice stub
+
+Implement the chapter exercise in [`PartnerResponsePolicy.java`](src/main/java/com/tapri/practice/chapter35/PartnerResponsePolicy.java). The starter method intentionally throws `UnsupportedOperationException` until you complete the TODO. Add tests under `src/test/java` and verify normal and edge-case behavior.
