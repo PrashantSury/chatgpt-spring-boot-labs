@@ -36,3 +36,8 @@ A merchant dashboard needs daily order count and revenue by status. Return compa
 ## Stretch task
 
 Add a production-style diagnostic: a metric, structured log, query-count assertion or security test that would help detect a regression.
+
+
+## Practice stub
+
+Implement the chapter exercise in [`OrderSummary.java`](src/main/java/com/tapri/practice/chapter19/OrderSummary.java). The starter method intentionally throws `UnsupportedOperationException` until you complete the TODO. Add tests under `src/test/java` and verify normal and edge-case behavior.
