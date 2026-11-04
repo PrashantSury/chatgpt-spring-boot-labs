@@ -37,3 +37,8 @@ Attach a request ID to every Tapri Cloud request, include it in logs and return 
 ## Stretch task
 
 Add a test for a realistic edge case, then refactor one part to improve readability without changing behavior.
+
+
+## Practice stub
+
+Implement the chapter exercise in [`RequestIdPolicy.java`](src/main/java/com/tapri/practice/chapter14/RequestIdPolicy.java). The starter method intentionally throws `UnsupportedOperationException` until you complete the TODO. Add tests under `src/test/java` and verify normal and edge-case behavior.
