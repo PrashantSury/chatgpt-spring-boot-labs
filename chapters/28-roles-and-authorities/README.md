@@ -36,3 +36,8 @@ A CUSTOMER can create and view their own orders; a CAFE_MANAGER can update menu 
 ## Stretch task
 
 Add a production-style diagnostic: a metric, structured log, query-count assertion or security test that would help detect a regression.
+
+
+## Practice stub
+
+Implement the chapter exercise in [`AuthorityPolicy.java`](src/main/java/com/tapri/practice/chapter28/AuthorityPolicy.java). The starter method intentionally throws `UnsupportedOperationException` until you complete the TODO. Add tests under `src/test/java` and verify normal and edge-case behavior.
