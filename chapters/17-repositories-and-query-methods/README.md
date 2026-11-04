@@ -36,3 +36,8 @@ Find available menu items by category and price, and look up an order by its ext
 ## Stretch task
 
 Add a production-style diagnostic: a metric, structured log, query-count assertion or security test that would help detect a regression.
+
+
+## Practice stub
+
+Implement the chapter exercise in [`MenuQuery.java`](src/main/java/com/tapri/practice/chapter17/MenuQuery.java). The starter method intentionally throws `UnsupportedOperationException` until you complete the TODO. Add tests under `src/test/java` and verify normal and edge-case behavior.
