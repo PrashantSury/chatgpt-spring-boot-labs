@@ -36,3 +36,8 @@ Café managers sign in using accounts stored in the database. The authentication
 ## Stretch task
 
 Add a production-style diagnostic: a metric, structured log, query-count assertion or security test that would help detect a regression.
+
+
+## Practice stub
+
+Implement the chapter exercise in [`UserAccountPolicy.java`](src/main/java/com/tapri/practice/chapter25/UserAccountPolicy.java). The starter method intentionally throws `UnsupportedOperationException` until you complete the TODO. Add tests under `src/test/java` and verify normal and edge-case behavior.
