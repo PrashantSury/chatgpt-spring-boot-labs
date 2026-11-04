@@ -37,3 +37,8 @@ Tapri Cloud connects to different database URLs in local and production. Bind `t
 ## Stretch task
 
 Add a test for a realistic edge case, then refactor one part to improve readability without changing behavior.
+
+
+## Practice stub
+
+Implement the chapter exercise in [`TapriSettings.java`](src/main/java/com/tapri/practice/chapter05/TapriSettings.java). The starter method intentionally throws `UnsupportedOperationException` until you complete the TODO. Add tests under `src/test/java` and verify normal and edge-case behavior.
