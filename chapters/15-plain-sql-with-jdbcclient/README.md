@@ -36,3 +36,8 @@ Build a menu search that filters by category and maximum price. Bind all user va
 ## Stretch task
 
 Add a production-style diagnostic: a metric, structured log, query-count assertion or security test that would help detect a regression.
+
+
+## Practice stub
+
+Implement the chapter exercise in [`MenuSqlRepository.java`](src/main/java/com/tapri/practice/chapter15/MenuSqlRepository.java). The starter method intentionally throws `UnsupportedOperationException` until you complete the TODO. Add tests under `src/test/java` and verify normal and edge-case behavior.
