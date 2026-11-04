@@ -37,3 +37,8 @@ Allow a café manager to change menu item price and availability. Prevent a pric
 ## Stretch task
 
 Add a test for a realistic edge case, then refactor one part to improve readability without changing behavior.
+
+
+## Practice stub
+
+Implement the chapter exercise in [`MenuUpdatePolicy.java`](src/main/java/com/tapri/practice/chapter11/MenuUpdatePolicy.java). The starter method intentionally throws `UnsupportedOperationException` until you complete the TODO. Add tests under `src/test/java` and verify normal and edge-case behavior.
