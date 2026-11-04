@@ -36,3 +36,8 @@ Operations needs liveness and readiness signals plus JVM and HTTP metrics. Publi
 ## Stretch task
 
 Review the feature as if it were going live: identify one failure mode, add a test or diagnostic for it, and document a mitigation.
+
+
+## Practice stub
+
+Implement the chapter exercise in [`HealthPolicy.java`](src/main/java/com/tapri/practice/chapter36/HealthPolicy.java). The starter method intentionally throws `UnsupportedOperationException` until you complete the TODO. Add tests under `src/test/java` and verify normal and edge-case behavior.
