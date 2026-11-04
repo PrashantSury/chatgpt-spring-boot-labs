@@ -36,3 +36,8 @@ A café dashboard lists hundreds of menu items. Return 20 rows per page sorted b
 ## Stretch task
 
 Add a production-style diagnostic: a metric, structured log, query-count assertion or security test that would help detect a regression.
+
+
+## Practice stub
+
+Implement the chapter exercise in [`PageRequestPolicy.java`](src/main/java/com/tapri/practice/chapter18/PageRequestPolicy.java). The starter method intentionally throws `UnsupportedOperationException` until you complete the TODO. Add tests under `src/test/java` and verify normal and edge-case behavior.
