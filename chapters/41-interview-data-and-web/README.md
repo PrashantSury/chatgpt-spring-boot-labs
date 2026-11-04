@@ -36,3 +36,8 @@ An order-history API becomes slow after launch. Explain how you would inspect re
 ## Stretch task
 
 Review the feature as if it were going live: identify one failure mode, add a test or diagnostic for it, and document a mitigation.
+
+
+## Practice stub
+
+Implement the chapter exercise in [`ApiTroubleshooter.java`](src/main/java/com/tapri/practice/chapter41/ApiTroubleshooter.java). The starter method intentionally throws `UnsupportedOperationException` until you complete the TODO. Add tests under `src/test/java` and verify normal and edge-case behavior.
