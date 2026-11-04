@@ -52,6 +52,10 @@ Every chapter provides the purpose of the concept, plain-language explanations, 
 | 40 | [Interview: Spring core](chapters/40-interview-spring-core/README.md) |
 | 41 | [Interview: data and web](chapters/41-interview-data-and-web/README.md) |
 
+## Practice stubs
+
+Find the chapter-specific Java TODO exercises in the [Practice Stub Index](PRACTICE_INDEX.md).
+
 ## Getting started
 
 1. Start with [Chapter 1 — Maven and the pom.xml](chapters/01-maven-and-the-pom/README.md).
