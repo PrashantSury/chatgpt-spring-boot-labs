@@ -36,3 +36,8 @@ Explain how a request reaches a service bean, how its dependencies are supplied,
 ## Stretch task
 
 Review the feature as if it were going live: identify one failure mode, add a test or diagnostic for it, and document a mitigation.
+
+
+## Practice stub
+
+Implement the chapter exercise in [`SpringCoreFlashcards.java`](src/main/java/com/tapri/practice/chapter40/SpringCoreFlashcards.java). The starter method intentionally throws `UnsupportedOperationException` until you complete the TODO. Add tests under `src/test/java` and verify normal and edge-case behavior.
