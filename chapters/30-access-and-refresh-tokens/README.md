@@ -36,3 +36,8 @@ A café manager uses a short-lived access token and a longer-lived refresh token
 ## Stretch task
 
 Add a production-style diagnostic: a metric, structured log, query-count assertion or security test that would help detect a regression.
+
+
+## Practice stub
+
+Implement the chapter exercise in [`RefreshTokenRotation.java`](src/main/java/com/tapri/practice/chapter30/RefreshTokenRotation.java). The starter method intentionally throws `UnsupportedOperationException` until you complete the TODO. Add tests under `src/test/java` and verify normal and edge-case behavior.
