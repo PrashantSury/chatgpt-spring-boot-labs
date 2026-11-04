@@ -37,3 +37,8 @@ Adding the MVC starter makes web infrastructure available. Adding a datasource d
 ## Stretch task
 
 Add a test for a realistic edge case, then refactor one part to improve readability without changing behavior.
+
+
+## Practice stub
+
+Implement the chapter exercise in [`AutoConfigExercise.java`](src/main/java/com/tapri/practice/chapter06/AutoConfigExercise.java). The starter method intentionally throws `UnsupportedOperationException` until you complete the TODO. Add tests under `src/test/java` and verify normal and edge-case behavior.
