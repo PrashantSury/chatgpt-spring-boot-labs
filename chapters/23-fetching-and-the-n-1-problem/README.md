@@ -36,3 +36,8 @@ An order-history endpoint loads 50 orders and then separately fetches each order
 ## Stretch task
 
 Add a production-style diagnostic: a metric, structured log, query-count assertion or security test that would help detect a regression.
+
+
+## Practice stub
+
+Implement the chapter exercise in [`QueryCountBudget.java`](src/main/java/com/tapri/practice/chapter23/QueryCountBudget.java). The starter method intentionally throws `UnsupportedOperationException` until you complete the TODO. Add tests under `src/test/java` and verify normal and edge-case behavior.
